@@ -16,9 +16,14 @@ Scenario: Positive Search for restaurants in an area
   Given I want food in "L2W 1k2"
   When  submit information
   Then I should see error with invalid Postcode
+  
+  
   use chrome plugin-- Tidy Gherkin to convert Feature file into step definitions
   write test script for 2 scenerio  and 6 steps
   I use cucumber framework with Java langauge
+ Used Chrome browser for automation of  test scripts
+ 
+
   
   Technical Questions Answers
   
